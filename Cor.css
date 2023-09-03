@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+
+:root{
+    --cor1: #FFBEBF;
+    --cor2: #9E99BF;
+    --cor3: #3C3D59;
+    --cor4: #6872A6;
+    --cor5: #FFE1D1;}
+
+/*Card flutuante e Titulo */
+
+body{background: linear-gradient(45deg, #3C3D59,#6872A6,#9E99BF) no-repeat fixed ;}
+
+body{max-width: 400px;}
+main{display: flex;
+    margin: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+div.flut{    box-shadow: 9px 12px 31px black;
+    float: left;
+
+    height: 330px;
+    width: 280px;
+    background-color: var(--cor3) ;}
+
+div#Pal{margin: 10px 0px 10px 10px;}
+
+p#l1{text-shadow: 0px 4px 0px var(--cor2);
+    color: var(--cor5);
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Ultra', serif;
+    text-align: center;
+    font-size: 43px;}
+
+
+
+p#l2{text-shadow: 0px 3px 0px var(--cor4);
+    padding: 2px 13px 2px 13px;
+    font-size: 25px;
+    color: var(--cor2);
+    margin-top: 0px;
+    margin-bottom: px;
+    font-family: 'Holtwood One SC', serif;
+    text-align: center;}
+
+
+/* Bottoes*/
+
+div#but { 
+    padding-top: 10%;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+a{color: var(--cor5);
+    text-decoration: none;}
+
+button{
+    text-shadow: 1px 2px 0px var(--cor2);
+    background-color: #3C3D59;
+    margin-right: 5px;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 20px;
+    border: none;}
+
+a:hover{color: var(--cor4);}
+
+/* posição imagem */
+
+
+div#img{background: url("imagem/Paisagem.png") right bottom no-repeat  fixed ;
+    max-width: 300px;
+    background-size:cover ;
+    margin: 10px 10px 10px -4px ;}
+
